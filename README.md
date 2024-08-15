@@ -1,11 +1,11 @@
-# OpenExoAmp
+# OpenXamp
 Bio-signal Amplifier
 
 ### OBJECTIVES:
 <P align="justify"> The objective of this project is to develop a bio-signal amplifier for sensing physiological signals.
 
 ### DESCRIPTION:
-<P align="justify"> Block diagram of an amplifier (OpenExoAmp) for bio-signal amplification and filtering. The amplifier is built with commercially-off-the-shelf components and powered by a pair of batteries. A pre-amplifier section with high common-mode-rejection-ratio (CMRR) is used to differencially pick the bio-signal. If differential input is not required, the inverting input can be shorted with the input reference terminal. The signal is then band-passed filtered and amplified to the desired value by controlling the gain of the amplifier. One can directly use this analog signal or digitised by an analog-t-digital converter (ADC) and a a microcontroller (MCU). The digitised signal can be transfered to a computer via serial network (USB). Note that many MCU boards have built-in ADC and USB interfaces that can be used for the ditisation of the amplified bio-signal. 
+<P align="justify"> Block diagram of an amplifier (OpenXamp) for bio-signal amplification and filtering. The amplifier is built with commercially-off-the-shelf components and powered by a pair of batteries. A pre-amplifier section with high common-mode-rejection-ratio (CMRR) is used to differencially pick the bio-signal. If differential input is not required, the inverting input can be shorted with the input reference terminal. The signal is then band-passed filtered and amplified to the desired value by controlling the gain of the amplifier. One can directly use this analog signal or digitised by an analog-t-digital converter (ADC) and a a microcontroller (MCU). The digitised signal can be transfered to a computer via serial network (USB). Note that many MCU boards have built-in ADC and USB interfaces that can be used for the ditisation of the amplified bio-signal. 
 
 ![Block-Diagram](https://github.com/RehabExo/OpenExoAmp/blob/main/BlockDiagram.png)
 
